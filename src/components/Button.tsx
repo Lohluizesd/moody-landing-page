@@ -3,7 +3,9 @@ type ButtonProps = React.ButtonHTMLAttributes<HTMLButtonElement>;
 export function Button({ children, className, ...props }: ButtonProps) {
   return (
     <button
-      className={`px-4 py-2 rounded-md bg-blue-500 text-white hover:bg-blue-600 ${className}`}
+      className={`bg-white text-black px-8 py-2 rounded-full border border-black/10 hover:bg-gray-100 transition-colors duration-200 font-bold
+        ${className}
+      `.trim()}
       {...props}
     >
       {children}
