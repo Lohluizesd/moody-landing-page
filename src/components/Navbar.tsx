@@ -27,7 +27,7 @@ export function Navbar({ logo = Logo }: NavbarProps) {
           </li>
           <li>
             <a href="#" className="hover:text-gray-300 transition-colors">
-              Link 3
+              Link 4
             </a>
           </li>
         </ul>
