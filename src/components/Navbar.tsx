@@ -27,11 +27,11 @@ export function Navbar({ logo = Logo }: NavbarProps) {
           </li>
           <li>
             <a href="#" className="hover:text-gray-300 transition-colors">
-              Link 4
+              Link 3
             </a>
           </li>
         </ul>
-        <Button className="h-[40px] px-6 mt-2">Book a spot</Button>
+        <Button className="h-[40px] px-6 mt-2">Book a spot!!</Button>
       </div>
     </nav>
   );
