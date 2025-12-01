@@ -17,21 +17,21 @@ export function Navbar({ logo = Logo }: NavbarProps) {
               href="#"
               className="hover:text-gray-300 transition-colors ml-[20px]"
             >
-              Link 1
+              A Moody
             </a>
           </li>
           <li>
             <a href="#" className="hover:text-gray-300 transition-colors">
-              Link 2
+              Lançamento
             </a>
           </li>
           <li>
             <a href="#" className="hover:text-gray-300 transition-colors">
-              Link 3
+              Quem Somos
             </a>
           </li>
         </ul>
-        <Button className="h-[40px] px-6 mt-2">Book a spot!!</Button>
+        <Button className="h-[40px] px-6 mt-2">Comprar</Button>
       </div>
     </nav>
   );
