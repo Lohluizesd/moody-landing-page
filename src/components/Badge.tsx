@@ -2,16 +2,16 @@ import { Star } from 'lucide-react';
 
 interface BadgeProps {
   text?: string;
-  stars?: boolean; 
+  stars?: boolean;
   variant?: 'outline' | 'filled';
   className?: string;
 }
 
-export const Badge = ({ 
-  text, 
-  stars = false, 
-  variant = 'outline', 
-  className = 'text-black border-black' 
+export const Badge = ({
+  text,
+  stars = false,
+  variant = 'outline',
+  className = 'text-black border-black',
 }: BadgeProps) => {
   const isFilled = variant === 'filled';
 
