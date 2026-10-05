@@ -2,6 +2,7 @@ import { Layout } from './components/Layout';
 import { Hero } from './components/Hero';
 import { Navbar } from './components/Navbar';
 import { About } from './components/About';
+import { Depoiments } from './components/Depoiments';
 
 export function App() {
   return (
@@ -9,6 +10,7 @@ export function App() {
       <Hero />
       <Navbar />
       <About />
+      <Depoiments />
     </Layout>
   );
 }
